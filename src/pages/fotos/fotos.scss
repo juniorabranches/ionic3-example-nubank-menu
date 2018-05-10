@@ -1,0 +1,33 @@
+page-fotos {
+
+  .vertical-line{
+      width: 30%;
+      background-color: #423145;
+      height: 100%;
+      float:left;
+      border-right: 10px solid #423145;
+    }
+
+    #parent {
+      height: 100%;
+    }
+
+    .scroll-content{
+      margin-bottom: 0px !important;
+      padding-bottom: 0px !important;
+    }
+
+    #profile-info {
+      top: -95px;
+      width: 100%;
+      z-index: 2;
+      text-align: center;
+    }
+
+    #profile-name {
+      color: #444;
+      font-size: 20px;
+      text-align: right;
+      padding: 10px;
+    }
+}

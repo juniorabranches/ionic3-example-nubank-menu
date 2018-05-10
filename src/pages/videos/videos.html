@@ -1,0 +1,30 @@
+<ion-content  [ngStyle]="{'background-image': 'url(' + imageUrl +')'}">
+  <div id="parent" >
+    <div class="vertical-line">
+
+      <ion-list no-lines >
+
+        <button style="color: #fff; background-color: #423145; font-family: 'Lato', sans-serif;" ion-item *ngFor="let p of pages" (click)="openPage(p)">
+
+          <div style="text-align:center" >
+              <img src="{{p.icon}}" style="width: 40px; heigth: 40px;">
+            <br>
+            <br>
+            <p text-wrap style="text-transform:uppercase; color: #fff; font-size: 10px; font-family: 'Lato', sans-serif">
+              {{p.title}}
+            </p>
+          </div>
+
+        </button>
+      </ion-list>
+
+
+    </div>
+
+
+      <div id="profile-info">
+        <h3 style="text-transform:uppercase; color:#fff; font-family: 'Lato', sans-serif;" id="profile-name">Vídeos</h3>
+      </div>
+
+</div>
+</ion-content>

@@ -1,0 +1,45 @@
+.swiper-pagination-bullet {
+   background-color: #423145;
+}
+
+.bar-button-default-ios, .bar-button-default.bar-button-ios-default, .bar-button-clear-ios-default {
+  color: #fff;
+}
+
+.bar-button-default-md, .bar-button-default.bar-button-md-default, .bar-button-clear-md-default {
+    color: #fff;
+}
+
+.bar-button-default-wp, .bar-button-default.bar-button-wp-default, .bar-button-clear-wp-default {
+  color: #fff;
+}
+
+.toolbar-title  {
+  font-size: 1.9rem !important;
+  font-family: 'Lato', sans-serif;
+  color: #fff;
+  text-transform:uppercase;
+}
+
+.transparent-header {
+  .toolbar-content,
+  .back-button {
+    color: white;
+  }
+  .toolbar-background,
+  ion-navbar,
+  ion-header {
+    background: transparent !important;
+    background-color: transparent !important;
+  }
+  .header-md::after,
+  .toolbar-background-ios {
+    background-image: none;
+    border-bottom: 0;
+  }
+  .header-ios .toolbar-background-ios,
+  .footer-ios .toolbar-background-ios {
+    border: 0;
+  }
+  // ---
+}
